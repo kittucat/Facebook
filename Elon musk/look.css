@@ -1,4 +1,4 @@
-*{
+* {
   background-color: #1a1a1a;
   margin: 0;
   padding: 0;
@@ -39,7 +39,7 @@ font-weight: 500;
 color: GhostWhite;
 }
 
-.logo{
+.logo {
   position: fixed;
   height: 40px;
   background: #262626;
@@ -47,18 +47,18 @@ color: GhostWhite;
   left: 17px;
 }
 
-.idk{
-  height: 600px;
+.idk {
+  height: 550px;
   width: 100%;
   background:#262626;
   background: linear-gradient(180deg, #0d0d0d 1%, #262626 )
 }
 
 .try {
-  width: 100%; 
+  width: 100%;
 }
 
-.space{
+.space {
   margin-top: 55px;
 top: 55px;
 display: block;
@@ -66,4 +66,132 @@ display: block;
   margin-right: auto;
   width: 950px;
   height: 350px;
+  border-bottom-right-radius: 7.5px;
+  border-bottom-left-radius: 7.5px;
+}
+
+.baby {
+height: 137px;
+border-radius: 50%;
+margin-left: 517px;
+margin-top: -10px;
+box-shadow: 0 0 3px 3px #262626;
+position: sticky;
+}
+
+.post{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.rad1 {
+width: 400px;
+}
+
+.rad2 {
+width: 500px;
+}
+
+.om {
+  background: #262626;
+  color: #cccce0;
+  padding: 3rem;
+  margin: 1rem;
+  border-radius: 7px;
+}
+
+.foto {
+  background: #262626;
+  color: #cccce0;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 7px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+}
+
+p{
+  background: #262626;
+  color: #cccce0;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.utseende {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.utseende1 {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  border-top-left-radius: 7px;
+}
+
+.utseende2 {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  border-top-right-radius: 7px;
+}
+
+.utseende3 {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  border-bottom-left-radius: 7px;
+}
+
+.utseende4 {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  border-bottom-right-radius: 7px;
+}
+
+.video {
+  background: #262626;
+  color: #cccce0;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 7px;
+}
+
+.inlagg {
+  background: #262626;
+  color: #cccce0;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 7px;
+}
+
+.posting {
+  background: #262626;
+  color: #cccce0;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 7px;
+  height: 80px;
+}
+
+.postbubble {
+  background: #404040;
+  border-radius: 7px;
+  height: 40px;
+  text-align:center;
+  line-height: 2.5;
+}
+
+.names {
+  color: #cccce0;
+  padding-left: 720px;
+  padding-top: 50px;
+  font-size: 30px;
+}
+.at {
+  color: #cccce0;
 }
