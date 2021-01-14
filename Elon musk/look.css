@@ -1,10 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 body {
   background-color: #1a1a1a;
+  font-weight: 100;
 }
 
 
@@ -42,6 +44,22 @@ ul li a {
   color: GhostWhite;
 }
 
+p {
+  background: #262626;
+  color: #cccce0;
+  font-size: 25px;
+}
+
+#rubrik {
+  font-size: 30px;
+  margin: 1rem;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+
+
 .logo {
   position: fixed;
   height: 40px;
@@ -51,10 +69,10 @@ ul li a {
 }
 
 .idk {
-  height: 550px;
   width: 100%;
   background:#262626;
-  background: linear-gradient(180deg, #0d0d0d 1%, #262626 )
+  background: linear-gradient(180deg, #0d0d0d 1%, #262626 );
+
 }
 
 .try {
@@ -62,8 +80,6 @@ ul li a {
 }
 
 .space {
-  margin-top: 55px;
-  top: 55px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -72,79 +88,88 @@ ul li a {
   border-bottom-right-radius: 7.5px;
   border-bottom-left-radius: 7.5px;
 }
+.names {
+  color: #cccce0;
+  position: relative;
+}
+.baby {
+  height: 12vmax ;
+  width: 12vmax;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-95%);
+  border: 2px solid #262626;
+}
 
-.post{
+.grid{
   display: flex;
   justify-content: center;
   padding: 1rem;
+  margin-top: 1rem;
 }
 
 .rad1 {
-  width: 400px;
-}
-
-.rad2 {
-  width: 500px;
+  width: 600px;
+  border-radius: 20px;
+  margin-right: 2rem;
 }
 
 .om {
   background: #262626;
   color: #cccce0;
-  padding: 3rem;
+  padding: 1rem;
   margin: 1rem;
   border-radius: 7px;
+  box-shadow:0 0 1px 2px black;
 }
 
 .foto {
   background: #262626;
   color: #cccce0;
-  padding: 1rem;
+  padding: 20px;
   margin: 1rem;
-  border-radius: 7px;
+  border-radius: 10px;
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
-}
-
-p{
-  background: #262626;
-  color: #cccce0;
-  margin-left: 10px;
-  font-size: 25px;
+  box-shadow:0 0 1px 2px black;
 }
 
 .utseende {
-  margin: 10px;
-  height: 100px;
-  width: 100px;
+  margin: 5px;
+  height: 170px;
+  width: 170px;
 }
 
 .utseende1 {
-  margin: 10px;
-  height: 100px;
-  width: 100px;
-  border-top-left-radius: 7px;
+  margin: 5px;
+  height: 170px;
+  width: 170px;
+  border-top-left-radius: 20px;
 }
 
 .utseende2 {
-  margin: 10px;
-  height: 100px;
-  width: 100px;
-  border-top-right-radius: 7px;
+  margin: 5px;
+  height: 170px;
+  width: 170px;
+  border-top-right-radius: 20px;
 }
 
 .utseende3 {
-  margin: 10px;
-  height: 100px;
-  width: 100px;
-  border-bottom-left-radius: 7px;
+  margin: 5px;
+  height: 170px;
+  width: 170px;
+  border-bottom-left-radius: 20px;
 }
 
 .utseende4 {
-  margin: 10px;
-  height: 100px;
-  width: 100px;
-  border-bottom-right-radius: 7px;
+  margin: 5px;
+  height: 170px;
+  width: 170px;
+  border-bottom-right-radius: 20px;
 }
 
 .video {
@@ -153,16 +178,18 @@ p{
   padding: 1rem;
   margin: 1rem;
   border-radius: 7px;
+  box-shadow:0 0 1px 2px black;
 }
 
-.inlagg {
-  background: #262626;
-  color: #cccce0;
+.rad2 {
+  width: 600px;
+  background: none;
+  border-radius: 20px;
   padding: 1rem;
-  margin: 1rem;
-  border-radius: 7px;
-  height: 517px;
 }
+
+
+
 
 .posting {
   background: #262626;
@@ -171,6 +198,7 @@ p{
   margin: 1rem;
   border-radius: 7px;
   height: 80px;
+  box-shadow:0 0 1px 2px black;
 }
 
 .postbubble {
@@ -181,28 +209,96 @@ p{
   line-height: 2.5;
 }
 
-#rubrik {
-  font-size: 30px;
-  text-align: center;
-}
 
-.names {
-  color: #cccce0;
-  position: relative;
-}
 
-.baby {
-  height: 12vmax ;
-  width: 12vmax;
-  position: absolute;
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%,-100%);
-  border: 2px solid #262626;
-}
+
+
+
 
 .at {
   color: #cccce0;
+}
+
+.inlagg {
+  background: #262626;
+  color: #cccce0;
+  padding: 3rem;
+  margin: 1rem;
+  border-radius: 7px;
+  box-shadow:0 0 1px 2px black;
+}
+
+
+.inlaggnamn {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.inlaggtext {
+  padding: 1rem;
+}
+
+.Reactions  {
+  padding: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray;
+}
+.kommentarinput {
+  box-shadow:0 0 1px 2px black;
+  height: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+  outline:none;
+  background:none;
+  color: white;
+}
+
+
+.irrelevant {
+  box-shadow:0 0 1px 1px black;
+  border-radius: 30px;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.irrelevantperson {
+margin-bottom: 5px;
+
+}
+
+.irrelevantpersontext {
+
+}
+
+@media all and (min-width: 1200px) {
+
+}
+
+@media all and (max-width: 1000px) {
+  .grid {
+      display: block;
+      justify-content: center;
+      padding: 1rem;
+    }
+}
+@media all and (max-width: 768px) {
+  .grid {
+      display: block;
+      justify-content: center;
+      padding: 1rem;
+    }
+}
+
+@media all and (max-width: 600px) {
+  .grid {
+      display: block;
+      justify-content: center;
+      padding: 1rem;
+    }
 }
