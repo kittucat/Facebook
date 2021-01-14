@@ -67,8 +67,8 @@ ul li a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 950px;
-  height: 350px;
+  width: 75%;
+  height: 40%;
   border-bottom-right-radius: 7.5px;
   border-bottom-left-radius: 7.5px;
 }
@@ -188,17 +188,19 @@ p{
 
 .names {
   color: #cccce0;
-  left: 25%;
-  top: 40%;
-  position: absolute;
+  position: relative;
 }
 
 .baby {
-  height: 137px;
+  height: 12vmax ;
+  width: 12vmax;
+  position: absolute;
   border-radius: 50%;
-  vertical-align: middle;
-  margin: 15px;
-  border: 2px solid red;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-100%);
+  border: 2px solid #262626;
 }
 
 .at {
