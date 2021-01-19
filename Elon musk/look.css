@@ -112,7 +112,6 @@ p {
 }
 
 .rad1 {
-  width: 600px;
   border-radius: 20px;
   margin-right: 2rem;
 }
@@ -134,7 +133,7 @@ p {
   border-radius: 10px;
   display: grid;
   grid-template-columns: auto auto auto;
-  justify-content: space-around;
+  justify-content: space-evenly;
   box-shadow:0 0 1px 2px black;
 }
 
@@ -182,13 +181,10 @@ p {
 }
 
 .rad2 {
-  width: 600px;
   background: none;
   border-radius: 20px;
   padding: 1rem;
 }
-
-
 
 
 .posting {
@@ -208,11 +204,6 @@ p {
   text-align:center;
   line-height: 2.5;
 }
-
-
-
-
-
 
 
 .at {
@@ -276,29 +267,337 @@ margin-bottom: 5px;
 
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1680px) {
+  .rad1{
+      width: 35%;
+  }
+  .rad2{
+      width: 35%;
+  }
 
+  .utseende {
+    margin: 0.5rem;
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .utseende1 {
+    margin: 0.5rem;
+    height: 10rem;
+    width: 10rem;
+    border-top-left-radius: 20px;
+  }
+
+  .utseende2 {
+    margin: 0.5rem;
+    height: 10rem;
+    width: 10rem;
+    border-top-right-radius: 20px;
+  }
+
+  .utseende3 {
+    margin: 0.5rem;
+    height: 10rem;
+    width: 10rem;
+    border-bottom-left-radius: 20px;
+  }
+
+  .utseende4 {
+    margin: 0.5rem;
+    height: 10rem;
+    width: 10rem;
+    border-bottom-right-radius: 20px;
+  }
 }
 
-@media all and (max-width: 1000px) {
+
+@media all and (max-width: 1200px) {
+
+  .utseende {
+    margin: 0.5rem;
+    height: 6.4rem;
+    width: 6.4rem;
+  }
+
+  .utseende1 {
+    margin: 0.5rem;
+    height: 6.4rem;
+    width: 6.4rem;
+    border-top-left-radius: 20px;
+  }
+
+  .utseende2 {
+    margin: 0.5rem;
+    height: 6.4rem;
+    width: 6.4rem;
+    border-top-right-radius: 20px;
+  }
+
+  .utseende3 {
+    margin: 0.5rem;
+    height: 6.4rem;
+    width: 6.4rem;
+    border-bottom-left-radius: 20px;
+  }
+
+  .utseende4 {
+    margin: 0.5rem;
+    height: 6.4rem;
+    width: 6.4rem;
+    border-bottom-right-radius: 20px;
+  }
+}
+
+
+    @media all and (max-width: 900px) {
+      .grid {
+          display: block;
+          justify-content: center;
+          padding: 1rem;
+        }
+        .utseende {
+          margin: 0.5rem;
+          height: 13rem;
+          width: 13rem;
+        }
+
+        .utseende1 {
+          margin: 0.5rem;
+          height: 13rem;
+          width: 13rem;
+          border-top-left-radius: 20px;
+        }
+
+        .utseende2 {
+          margin: 0.5rem;
+          height: 13rem;
+          width: 13rem;
+          border-top-right-radius: 20px;
+        }
+
+        .utseende3 {
+          margin: 0.5rem;
+          height: 13rem;
+          width: 13rem;
+          border-bottom-left-radius: 20px;
+        }
+
+        .utseende4 {
+          margin: 0.5rem;
+          height: 13rem;
+          width: 13rem;
+          border-bottom-right-radius: 20px;
+        }
+    }
+
+
+
+@media all and (max-width: 800px) {
   .grid {
       display: block;
       justify-content: center;
       padding: 1rem;
+      }
+
+    .utseende {
+      margin: 0.5rem;
+      height: 10rem;
+      width: 10rem;
+    }
+
+    .utseende1 {
+      margin: 0.5rem;
+      height: 10rem;
+      width: 10rem;
+      border-top-left-radius: 20px;
+    }
+
+    .utseende2 {
+      margin: 0.5rem;
+      height: 10rem;
+      width: 10rem;
+      border-top-right-radius: 20px;
+    }
+
+    .utseende3 {
+      margin: 0.5rem;
+      height: 10rem;
+      width: 10rem;
+      border-bottom-left-radius: 20px;
+    }
+
+    .utseende4 {
+      margin: 0.5rem;
+      height: 10rem;
+      width: 10rem;
+      border-bottom-right-radius: 20px;
     }
 }
-@media all and (max-width: 768px) {
+
+@media all and (max-width: 660px) {
   .grid {
       display: block;
       justify-content: center;
       padding: 1rem;
+      }
+
+    .utseende {
+      margin: 0.5rem;
+      height: 9rem;
+      width: 9rem;
+    }
+
+    .utseende1 {
+      margin: 0.5rem;
+      height: 9rem;
+      width: 9rem;
+      border-top-left-radius: 20px;
+    }
+
+    .utseende2 {
+      margin: 0.5rem;
+      height: 9rem;
+      width: 9rem;
+      border-top-right-radius: 20px;
+    }
+
+    .utseende3 {
+      margin: 0.5rem;
+      height: 9rem;
+      width: 9rem;
+      border-bottom-left-radius: 20px;
+    }
+
+    .utseende4 {
+      margin: 0.5rem;
+      height: 9rem;
+      width: 9rem;
+      border-bottom-right-radius: 20px;
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 608px) {
   .grid {
       display: block;
       justify-content: center;
       padding: 1rem;
+      }
+
+    .utseende {
+      margin: 0.5rem;
+      height: 8rem;
+      width: 8rem;
+    }
+
+    .utseende1 {
+      margin: 0.5rem;
+      height: 8rem;
+      width: 8rem;
+      border-top-left-radius: 20px;
+    }
+
+    .utseende2 {
+      margin: 0.5rem;
+      height: 8rem;
+      width: 8rem;
+      border-top-right-radius: 20px;
+    }
+
+    .utseende3 {
+      margin: 0.5rem;
+      height: 8rem;
+      width: 8rem;
+      border-bottom-left-radius: 20px;
+    }
+
+    .utseende4 {
+      margin: 0.5rem;
+      height: 8rem;
+      width: 8rem;
+      border-bottom-right-radius: 20px;
+    }
+}
+
+@media all and (max-width: 560px) {
+  .grid {
+      display: block;
+      justify-content: center;
+      padding: 1rem;
+      }
+
+    .utseende {
+      margin: 0.5rem;
+      height: 7rem;
+      width: 7rem;
+    }
+
+    .utseende1 {
+      margin: 0.5rem;
+      height: 7rem;
+      width: 7rem;
+      border-top-left-radius: 20px;
+    }
+
+    .utseende2 {
+      margin: 0.5rem;
+      height: 7rem;
+      width: 7rem;
+      border-top-right-radius: 20px;
+    }
+
+    .utseende3 {
+      margin: 0.5rem;
+      height: 7rem;
+      width: 7rem;
+      border-bottom-left-radius: 20px;
+    }
+
+    .utseende4 {
+      margin: 0.5rem;
+      height: 7rem;
+      width: 7rem;
+      border-bottom-right-radius: 20px;
+    }
+}
+
+@media all and (max-width: 505px) {
+  .grid {
+      display: block;
+      justify-content: center;
+      padding: 1rem;
+      }
+
+    .utseende {
+      margin: 0.5rem;
+      height: 6rem;
+      width: 6rem;
+    }
+
+    .utseende1 {
+      margin: 0.5rem;
+      height: 6rem;
+      width: 6rem;
+      border-top-left-radius: 20px;
+    }
+
+    .utseende2 {
+      margin: 0.5rem;
+      height: 6rem;
+      width: 6rem;
+      border-top-right-radius: 20px;
+    }
+
+    .utseende3 {
+      margin: 0.5rem;
+      height: 6rem;
+      width: 6rem;
+      border-bottom-left-radius: 20px;
+    }
+
+    .utseende4 {
+      margin: 0.5rem;
+      height: 6rem;
+      width: 6rem;
+      border-bottom-right-radius: 20px;
     }
 }
